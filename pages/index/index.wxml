@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view>demo01</view>
+<view>My name is {{name}}</view>
+<view>My age is {{age}}</view>
+<view wx:for="{{hobby}}">{{item.name}}</view>
+<text>{{index}}</text>
+<button bindtap="addIndexNumber">+</button>
+<button bindtap="subIndexNumber">-</button>
